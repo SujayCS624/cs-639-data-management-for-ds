@@ -1,0 +1,73 @@
+{
+    "took": 2,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 4,
+            "relation": "eq"
+        },
+        "max_score": 4.632265,
+        "hits": [
+            {
+                "_index": "madmap",
+                "_id": "lwgAl5UBrIXkCu8zI9pL",
+                "_score": 4.632265,
+                "_source": {
+                    "source": {
+                        "name": "NASA"
+                    },
+                    "title": "NASA Mission Gets Its First Snapshot of Polar Heat Emissions",
+                    "publishedAt": "2024-09-15T15:12:17Z"
+                }
+            },
+            {
+                "_index": "madmap",
+                "_id": "9AgAl5UBrIXkCu8zI9pL",
+                "_score": 4.632265,
+                "_ignored": [
+                    "description.keyword"
+                ],
+                "_source": {
+                    "source": {
+                        "name": "NASA"
+                    },
+                    "title": "SARP West 2024 Oceans Group",
+                    "publishedAt": "2024-09-25T21:08:57Z"
+                }
+            },
+            {
+                "_index": "madmap",
+                "_id": "_AgAl5UBrIXkCu8zI9pL",
+                "_score": 4.632265,
+                "_source": {
+                    "source": {
+                        "name": "NASA"
+                    },
+                    "title": "NASA Mission Gets Its First Snapshot of Polar Heat Emissions",
+                    "publishedAt": "2024-09-15T15:12:17Z"
+                }
+            },
+            {
+                "_index": "madmap",
+                "_id": "WQgAl5UBrIXkCu8zI9tL",
+                "_score": 4.632265,
+                "_ignored": [
+                    "description.keyword"
+                ],
+                "_source": {
+                    "source": {
+                        "name": "NASA"
+                    },
+                    "title": "SARP West 2024 Oceans Group",
+                    "publishedAt": "2024-09-25T21:08:57Z"
+                }
+            }
+        ]
+    }
+}
